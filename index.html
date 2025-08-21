@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+<title>โปรแกรมผลึกแมวหมวย | Yulgang Crystal</title>
+<meta name="description" content="หน้าเข้ารหัส/ถอดรหัสสำหรับ Yulgang Crystal แปลงคีย์และสร้างโทเคนอย่างปลอดภัย ใช้งานฟรี">
+<meta name="keywords" content="Yulgang Crystal, โปรแกรมผลึกแมวหมวย, yulgang-crystal, crypter, key tool">
+<link rel="canonical" href="https://wick44449.github.io/yulgang-crystal-web/">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="โปรแกรมผลึกแมวหมวย | Yulgang Crystal">
+<meta property="og:description" content="หน้าเข้ารหัส/ถอดรหัสสำหรับ Yulgang Crystal แปลงคีย์และสร้างโทเคนอย่างปลอดภัย">
+<meta property="og:url" content="https://wick44449.github.io/yulgang-crystal-web/">
+<meta property="og:image" content="https://wick44449.github.io/yulgang-crystal-web/cover.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"SoftwareApplication",
+  "name":"โปรแกรมผลึกแมวหมวย (Yulgang Crystal)",
+  "applicationCategory":"Utility",
+  "operatingSystem":"Windows",
+  "offers":{"@type":"Offer","price":"0","priceCurrency":"THB"},
+  "url":"https://wick44449.github.io/yulgang-crystal-web/",
+  "downloadUrl":"https://github.com/meawmuay/yulgang-crystal",
+  "sameAs":[
+    "https://github.com/meawmuay/yulgang-crystal",
+    "https://github.com/wick44449/yulgang-crystal"
+  ]
+}
+</script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial; }
+    body { 
+      margin: 0;
+      background:#0b1020; 
+      color:#e9eef9; 
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card { 
+      background:#121a33; 
+      border:1px solid #26325b; 
+      border-radius:14px; 
+      padding:16px; 
+      max-width: 880px; 
+      width: 90%; 
+      box-sizing: border-box;
+    }
+    label { display:block; font-size:13px; margin:12px 0 6px; color:#b9c7f1; }
+    textarea, .out {
+      width:100%; box-sizing:border-box; padding:10px 12px; border-radius:10px; border:1px solid #2b3c67;
+      background:#0e1630; color:#e9eef9; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:14px;
+    }
+    textarea { min-height: 120px; resize: vertical; }
+    button {
+      margin-top:14px; padding:10px 14px; border-radius:10px; border:1px solid #3a55a1;
+      background:#1a2a5a; color:#fff; cursor:pointer; font-weight:600;
+    }
+    button:hover { filter: brightness(1.1); }
+    .out { white-space:pre-wrap; word-break:break-word; }
+    .links { margin-top:20px; }
+    .links a {
+      display:inline-block; margin:6px 8px 0 0; padding:10px 14px;
+      background:#1f2e60; border:1px solid #3a55a1; border-radius:10px;
+      color:#fff; text-decoration:none; font-weight:600;
+    }
+    .links a:hover { background:#2a3c7f; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 style="margin:0 0 12px; text-align:center;">แจกโปรแกรมผลึกแมวหมวย 30วัน ต่อได้เลื่อยๆ</h1>
+
+    <label for="exampleKey">วาง key ของคุณตรงนี้เลย</label>
+    <textarea id="exampleKey" placeholder="วาง Key ที่นี่"></textarea>
+
+    <button id="runBtn">ประมวลผล</button>
+
+    <label style="margin-top:16px">ผลลัพธ์</label>
+    <div id="decOut" class="out"></div>
+
+    <div class="links">
+      <p>📥 โหลดโปรแกรมได้ที่:</p>
+      <a href="https://github.com/meawmuay/yulgang-crystal" target="_blank">GitHub หลัก</a>
+      <a href="https://github.com/wick44449/yulgang-crystal" target="_blank">ลิ้งค์สำรอง</a>
+    </div>
+  </div>
+
+  <!-- โหลดโค้ด Obfuscate ภายนอก -->
+  <script src="./app.obf.js"></script>
+</body>
+</html>
