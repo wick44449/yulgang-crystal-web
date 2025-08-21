@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wick44449.github.io/yulgang-crystal-web/sitemap.xml
